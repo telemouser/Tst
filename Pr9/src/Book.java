@@ -1,7 +1,7 @@
   
 public class Book implements Publication, Listenable {
 	static final int FAILURE = -1;
-	String name;				// назва книги
+	String name;				// назва книги 
 	String author;  
 	int pageCount;				// кількість сторінок
 	int pageMark;			 	// остання прочитана сторінка (закладка)
