@@ -1,10 +1,10 @@
-
+  
 public class Book implements Publication, Listenable {
 	static final int FAILURE = -1;
 	String name;				// назва книги
 	String author;  
 	int pageCount;				// кількість сторінок
-	int pageMark;				// остання прочитана сторінка (закладка)
+	int pageMark;			 	// остання прочитана сторінка (закладка)
 	boolean isPaper;			// ознака наявності паперової версії
 	boolean isDocFile; 			// ознака наявності текстового файлу
 	boolean isAudioFile;  		// ознака наявності аудіофайлу
