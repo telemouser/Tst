@@ -1,4 +1,4 @@
- public class Book implements Publication, Listenable { //
+public class Book implements Publication, Listenable {
 	static final int FAILURE = -1; //
 	String name;				// назва книги 
 	String author;  

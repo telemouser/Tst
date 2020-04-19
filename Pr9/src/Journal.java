@@ -1,4 +1,4 @@
-public class Journal implements Publication {//
+public class Journal implements Publication {
 	String name;			// назва журналу  
 	int pageCount; 			// кількість сторінок
 	int pageMark; 			// остання прочитана сторінка (закладка)

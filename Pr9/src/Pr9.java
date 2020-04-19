@@ -1,4 +1,4 @@
-interface Printable {//
+interface Printable {
 	void print();
 }
 interface Readable {
